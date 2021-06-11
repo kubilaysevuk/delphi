@@ -1,0 +1,80 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Label1: TLabel
+    Position.X = 120.000000000000000000
+    Position.Y = 136.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited GroupBox1: TGroupBox
+    Position.X = 120.000000000000000000
+    Position.Y = 192.000000000000000000
+    inherited Button3: TButton
+      Position.Y = 24.000000000000000000
+    end
+    inherited Button4: TButton
+      Position.Y = 24.000000000000000000
+    end
+    inherited Button5: TButton
+      Position.Y = 24.000000000000000000
+    end
+  end
+  inherited Button1: TButton
+    Position.X = 168.000000000000000000
+    Position.Y = 304.000000000000000000
+  end
+  inherited Button2: TButton
+    Position.X = 168.000000000000000000
+    Position.Y = 360.000000000000000000
+  end
+  inherited Label2: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 472.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label3: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Label4: TLabel
+    Position.X = 176.000000000000000000
+    Position.Y = 264.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Timer1: TTimer
+    Left = 360
+    Top = 72
+  end
+  inherited Label5: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 472.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label6: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 80.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Fatura Tutar'#305':'
+  end
+  inherited Label7: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 528.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = ''
+  end
+  inherited Label8: TLabel
+    Position.X = 168.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 49.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000002000000}
+  end
+end

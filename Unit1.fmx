@@ -1,0 +1,146 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Ak'#305'll'#305' Su Kontrol Sistemi'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = xFF55D5F6
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 80.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '0'
+    TabOrder = 2
+  end
+  object GroupBox1: TGroupBox
+    Position.X = 80.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'S'#305'cakl'#305'k'
+    TabOrder = 3
+    object Button3: TButton
+      Position.Y = 16.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '20C'
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Position.X = 64.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '30C'
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      Position.X = 128.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 65.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = '40C'
+      OnClick = Button5Click
+    end
+  end
+  object Button1: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'A'#199
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 352.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'KAPAT'
+    OnClick = Button2Click
+  end
+  object Label2: TLabel
+    Position.X = 144.000000000000000000
+    Position.Y = 432.000000000000000000
+    Text = '0'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Position.X = 144.000000000000000000
+    Position.Y = 464.000000000000000000
+    Text = '0'
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 136.000000000000000000
+    Position.Y = 248.000000000000000000
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 8
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 304
+    Top = 56
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 432.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'S'#252're:'
+    TabOrder = 11
+  end
+  object Label6: TLabel
+    Position.X = 112.000000000000000000
+    Position.Y = 480.000000000000000000
+    Text = 'Label6'
+    TabOrder = 12
+  end
+  object Label7: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 464.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Fatura '#220'creti:'
+    TabOrder = 14
+  end
+  object Label8: TLabel
+    StyledSettings = []
+    Position.X = 104.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Impact'
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000002000000}
+    TextSettings.FontColor = claDarkcyan
+    Text = 'YE'#350#304'LSU'
+    TabOrder = 15
+  end
+end
